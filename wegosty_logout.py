@@ -11,7 +11,7 @@ driver = webdriver.Chrome(service=s)
 
 
 def setUp():
-    print(f'lanch {locators.app}')
+    print(f'launch {locators.app}')
     print('___________________________________________')
     driver.maximize_window()
     driver.implicitly_wait(30)
